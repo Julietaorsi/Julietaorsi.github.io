@@ -1,7 +1,6 @@
-/*Tipografias importadaa*/
+/*Tipografias importadas*/
 
-@import url('https://fonts.googleapis.com/css2? family= Pacifico & display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Langosta & display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Pacifico&display=swap');
 
 
 /*Selector Universal*/
@@ -14,27 +13,33 @@
 /*Etiquetas grupales*/
 
  body {background-color: #e7c4be;} 
+
+ a {color: #ffffff;
+   text-decoration: none;}
+
 .Barra_Navegación {background-color: #ddad9f;}
 
-a {color: #ffffff;
-   text-decoration: none;}
+/*Header*/
    
  header {width: 100%;
          height:400px;
          background-color: #e7c4be;}
 
- header h1 {font-style: italic;
-            font-family:Pacifico;
+/*Titulos del header*/
+
+ header h1 { font-family: Pacifico;
             color:#ffffff;
             font-weight: lighter;
             margin-left: 10px;}
 
-
  header h3 {color: #cea294;
             font-weight:bolder;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 22px;
-            margin-left:10px}
+            font-size:22px;
+            margin-left:10px;
+            margin-bottom:10px;}
+
+/*footer*/
 
  footer {color: #ffdbd3;
          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -101,4 +106,4 @@ table tr td i {color: #e7c4be;
               line-height: 25px;}
  
  
-  
+        

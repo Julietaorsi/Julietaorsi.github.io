@@ -17,7 +17,8 @@
  a {color: #ffffff;
    text-decoration: none;}
 
-.Barra_Navegación {background-color: #ddad9f;}
+.Barra_Navegación {background-color: #ddad9f;
+                    text-align: center;}
 
 /*Header*/
    
@@ -60,27 +61,27 @@
              border-width:5px;
              margin: 10px;}
 
-/*Estilos puntuales*/
 
-.Barra_Navegación {text-align: center;}
+/*Titulos pagina principal*/
 
 .Promociones h3,.Testimonios h3 {margin: 10px;
-                                  color: #d9ab9d;
+                                  color: #cea294;
                                   font-size: 25px;
                                   text-decoration: underline;
-                                  font-family:Pacifico;
+                                  font-family:Lobster Two;
                                   margin: 10px;
                                   font-weight: lighter;}
 
-.Comentarios{color: #ffffff;
-             margin:10px;
-             font-family:pacifico;
-             font-style: italic;
-             font-weight: lighter;
-             font-size: 20px;
-       border-color: #ddad9f;}
+.Comentarios h3 {color: #ffffff;
+                 margin:10px;
+                 font-family:Lobster Two;
+                 font-style: italic;
+                 font-weight: lighter;
+                 font-size: 20px;
+                 border-color: #ddad9f;}
 
-textarea {margin: 10px;}
+textarea {margin: 10px;
+color: #cea294;}
 
  /*Tabla de Horarios¨*/
  

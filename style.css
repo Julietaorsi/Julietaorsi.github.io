@@ -1,0 +1,39 @@
+/*Selector Universal*/
+
+*{ margin: 0px;
+    padding:0px;}
+ 
+ 
+ /*Etiquetas grupales*/
+ 
+ body {background-color:#e7c4be;}
+ header{background-color: #e7c4be;}
+ footer{background-color: #ddad9f;}
+ a {color: #ffffff;
+     text-decoration: none;}
+ 
+ /*Estilos puntuales*/
+ 
+ header ul li {color:#ddad9f }
+ 
+ .Barra_Navegación {text-align: center; 
+                    background-color: #ddad9f}
+ 
+  h3,section{margin-bottom: 10px;}
+  footer p {text-align: center;}
+ 
+  /*Tabla de Horarios¨*/
+ 
+  body table { background-color: #ffffff;
+               margin:0 auto;
+               margin-block: 30px;
+               text-align: center}
+ 
+ body table ul {list-style:none;}
+ body table th {background-color: lightcoral; }
+ body table tr td {font-weight:bold;}
+ 
+ 
+ 
+ 
+  

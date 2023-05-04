@@ -134,15 +134,17 @@ table tr td i {color: #e7c4be;
 
 /*titulos quienes somos*/
 
-.nosotras p {color:#ffffff;
+.nosotras p, .productos li {color:#ffffff;
              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
               font-size: 20px;
               margin: 10px;}
 
-.nosotras h2 {color:#ca9e91;
+.nosotras h2, .productos h2 {color:#ca9e91;
               font-family: lobster two;
               font-size: 25px;
               margin: 10px;
               text-decoration: underline;
               font-weight: lighter;}
+
+
         

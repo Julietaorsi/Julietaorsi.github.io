@@ -14,18 +14,34 @@
 
  body {background-color: #e7c4be;} 
 
- a {color: #ffffff;
-   text-decoration: none;}
+ a {color: #ffffff;}
+
+ /*Logo*/
+
+ .logo { display: flex;
+        justify-content: left;}
 
 /*Barra de navegacion*/
 
-.Barra_Navegación {background-color: #ddad9f;
-                    text-align: center;}
+.Barra_Navegacion { margin-bottom: 10px;
+                  background-color: #ddad9f;
+                  color: #ffffff;
+                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  font-size: 18px;
+                  font-weight: lighter;}
 
-.Barra_Navegación li {color: #ffffff;
-                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                      font-size: 18px;
-                      font-weight: lighter;}
+.barra {flex-direction: row;
+        display: flex;
+        align-content: center;
+        justify-content: center;}
+  
+.op1 {background-color:#d39c9c;}
+.op2 {background-color:#f1a4a2}
+.op3 {background-color:#e49393;}
+.op4 {background-color:#f18080 ;}
+.op5 {background-color:#ee5a5a ;}
+
+
 
 /*Header*/
    

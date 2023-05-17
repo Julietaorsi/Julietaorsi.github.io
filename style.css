@@ -108,6 +108,9 @@ footer ul {display: flex;
          
 .Promociones,.Testimonios { text-align: center;}
 
+.Testimonios img {margin-left: 3px;
+                  margin-bottom: 40px;}
+
 /*Titulos pagina principal*/
 
 .Promociones h3,.Testimonios h3 {margin: 10px;
@@ -125,7 +128,7 @@ footer ul {display: flex;
                  font-size: 20px;
                  border-color: #ddad9f;}
 
-textarea {margin: 10px;}
+
 
 /*formularios*/
 

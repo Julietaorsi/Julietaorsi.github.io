@@ -254,108 +254,332 @@ table tr td {font-size: 10px;}
 
 /*tablets*/
 
-@media (min-width: 321px) and (max-width: 768px) {}
+@media (min-width: 390px) and (max-width: 800px) {
 
+
+.logo img { width: 150px ;
+            height: 150px;
+            margin-top: 20px;}            
+        
+.logo article { padding: 50px;}
+        
+        
+#Buscador { width:100%;
+           height: 30px;
+           font-size: 20px;
+           }
+        
+.barranavegacion{font-size: 20px;
+                 width: 100%;
+                 height: 5px;
+                 margin-bottom: 50px;}
+        
+.opcion {width: 20%;
+        height: 50px;
+        padding: 10px;
+        text-align: center;}
+        
+header {width: 100%;
+                height: 300px;}
+        
+header h1 { margin-top: 10px;
+                    font-size: 30px;}
+            
+header h3 { font-size:20px;
+                    margin-bottom:10px;}
+        
+footer {    width: 100%;
+                    height:150px;}  
+        
+footer h3 { margin: 15px;
+                    font-size: 20px;}
+        
+.Testimonios img {height: 200px;
+                 width: 20%;
+                margin-bottom: 15px;}
+        
+.Promociones h3,.Testimonios h3 { margin-top: 20px;
+                                 font-size: 15px;}
+
+.Promociones img { margin-top: 10px;
+                   width: 23%;
+                   height: 150px;}
+        
+.Comentarios h3 {margin:10px;
+                         font-size: 15px;}
+        
+.formulario li  {font-size: 20px;}
+        
+.formulario {margin-block: 5px;}
+        
+.formulario h3 {font-size: 20px;}
+                                 
+table {width: 100px; 
+        height: 100px;
+        border-radius: 5px;
+        margin: 5px;}
+        
+table th {font-size: 20px;}
+        
+table tr td {font-size: 20px;}
+        
+.nosotras p, .productos li {font-size: 10px;}
+        
+.nosotras h2, .productos h2 {font-size: 10px;
+                             margin-top: 5px;}
+        
+.container{ width: 100%;
+                   height:355px;
+                   justify-content: center;
+                   display: flex;
+                   flex-direction: row;}
+        
+.card h4 {font-size: 5px;}
+                 
+.card {margin: 5px;
+               width: 50px;
+               height: 86px;}
+        
+.card a {font-size: 5px;}
+        
+.container .card img {width: 50px;
+                              height:50px;}
+        
+.nosotras,.presentacion,.quehacemos {display: flex;
+                                   flex-direction:row;
+                                   margin: 10px;
+                                   padding: 10px;}
+        
+.logoredes {width: 20px;
+                   height: 20px;
+                   margin: 5px;}
+        
+.imagenes img { width: 200px;
+                height:200px;
+                justify-content: center;
+                margin:5px;}
+        
+}
        
  @media (min-width: 769px) {
 
-.logo img { margin-left: 20px;
-           height: 200px;
-           width: 200px;}
-            
-.logo article { margin:  15px;
-                padding: 50px;}
-            
-#Buscador { background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
-           width: 100%;
-           padding: 10px 10px 10px 30px;
-           font-size: 15px;}
-           
-.barranavegacion { font-size: 20px;}
-            
-.opcion{width: 100%;
-        height: 50px;
-        padding: 10px;}
+        body {background-color:#f8cbcb} 
+       
+        a {color: #ffffff;
+           text-decoration: none;}
+       
+       
+        .logo {display: flex;}
+       
+        .logo img { justify-content: left;
+                    margin-left: 20px;
+                    height: 200px;
+                     width: 200px;}
+       
+       .logo article { float: right;
+                       justify-content: right;
+                       margin:  15px;
+                       padding: 50px;}
+       
+       #Buscador { background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+                   background-color: white;
+                   width: 100%;
+                   border: transparent;
+                   padding: 10px 10px 10px 30px;
+                   outline: none;
+                   justify-content: center;
+                   border-radius: 1px;
+                   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                   font-size: 15px;}
 
-header {width: 100%;
-        height: 300px;}
-            
-header h1 {margin-left: 10px;
-           font-size: 30px;}
-            
-header h3 {font-size:22px;
-           margin-left:10px;
-           margin-bottom:10px;}
-            
-footer {width: 100%;
-        height:150px;}  
-            
-footer h3 { margin: 15px;
-            font-size: 20px;}
-            
-.Testimonios img {margin-left: 3px;
-                  margin-bottom: 40px;}
-            
-.Promociones h3,.Testimonios h3 {margin: 10px;
-                                font-size: 25px;}
-.Comentarios h3 {margin:10px;
-                font-size: 20px;}
-            
-.formulario  {padding: 20px;}
-            
-.formulario li  { margin-left: 20px;
-                margin-bottom: 10px;
-                font-size: 20px;}
-            
-.formulario h3 {font-size: 30px;
-                margin-left: 10px;}
+       
+       .barranavegacion nav { display: flex;
+                             flex-direction: row;
+                             justify-content: center;
+                             text-decoration: none;}
+       
+       .barranavegacion {  color: #ffffff;
+                           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                           font-size: 20px;
+                           font-weight: lighter;
+                           text-decoration: none;}
+       
+       .opcion{width: 100%;
+               height: 50px;
+               padding: 10px;
+               text-align: center;}
+       
+       .op1 {background-color:#e7b0b0;}
+       .op2 {background-color:#f1a4a2;}
+       .op3 {background-color:#e49393;}
+       .op4 {background-color:#f18080;}
+       .op5 {background-color:#ee5a5a;}
+          
+        header {width: 100%;
+                height: 300px;
+                background-color:#e7c4be;}
+       
+        header h1 {font-family: Pacifico;
+                   color:#ffffff;
+                   font-weight: lighter;
+                   margin-left: 10px;
+                   font-size: 30px;}
+       
+        header h3 {color:#e49393;
+                   font-family:Lobster Two;
+                   font-size:22px;
+                   margin-left:10px;
+                   margin-bottom:10px;
+                   font-weight: light;}
+       
+       
+        footer {color:#ffffff;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                width: 100%;
+                height:150px;
+                background-color:#e7c4be;}  
+       
+        footer p {text-align: center;
+                  background-color: #f1a4a2;}
+       
+       footer h3 { margin: 15px;
+                   font-family: lobster Two;
+                   font-size: 20px;
+                   font-weight: lighter;}
+       
+       footer nav {display: flex;}
+       
+       footer ul {display: flex;
+                  flex-direction: row;}
+        
+                
+       .Promociones,.Testimonios { text-align: center;}
 
-.formulario {border-width:5px;
-             margin: 10px;}
-            
-table { margin-block: 30px;
-        width: 900px; 
-        height: 100px;
-        border-radius: 5px;}
-            
-table th {font-size: 25px;}
-            
-table tr td b {font-size: 25px;}
-            
-table tr td i {font-size: 20px;
-               margin-block: 20px;
-               line-height: 25px;}
-            
-.nosotras p, .productos li {font-size: 20px;
-                            margin: 10px;}
-            
-.nosotras h2, .productos h2 {font-size: 25px;
-                             margin-top: 20px;}
-            
-.container{width: 100%;
-           height:355px;
-           margin-bottom: 20px;}
-            
-.card h4 {margin-top: 20px;}
-                     
-.card {margin: 20px;}
+       .Promociones img {width: 250px;
+                         height: 250px;
+                         margin: 10px;}
+       
+       .Testimonios img { margin: 10px;
+                          margin-bottom: 30px;
+                         width: 250px;
+                         height: 450px;}
+       
+       .Promociones h3,.Testimonios h3 {margin: 10px;
+                                         color:#ffffff;
+                                         font-size: 25px;
+                                         text-decoration: underline;
+                                         font-family:Lobster Two;
+                                         font-weight: lighter;}
+       
+       .Comentarios h3 {color: #ffffff;
+                        margin:10px;
+                        font-family:Lobster Two;
+                        font-style: italic;
+                        font-weight: lighter;
+                        font-size: 20px;
+                        border-color: #ddad9f;}
 
-.container .card img {width: 220px;
-                     height:220px;}
-
-.nosotras,.presentacion,.quehacemos {margin: 10px;
-                                     padding: 10px;}
-
-
-.logoredes {width: 45px;
-            height: 45px;
-            margin-left:20px;}
-            
-.imagenes img { width: 250px;
-                height: 250px;
-                margin-top: 30px;
-                margin-bottom: 30px;
-                margin-right: 5px;
-                margin-left: 5px;}
-            
-            }
+       
+       .formulario  {display: flex;
+                     justify-content: center;
+                     padding: 20px;}
+       
+       .formulario li  { margin-left: 20px;
+                         margin-bottom: 10px;
+                         margin-right: 0px;
+                         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                         font-size: 20px;
+                         color:#ca9e91;
+                         font-size:20px;
+                         text-decoration: underline;
+                         font-weight: bold;
+                         font-style: italic;}
+       
+       .formulario h3 {color: #ffffff;
+                       font-size: 30px;
+                       font-family:Lobster Two;
+                       font-weight: lighter;
+                       margin-left: 10px;
+                       text-align:center;}
+                                
+       .formulario {border-style: dashed;
+                   border-color:#ddad9f;
+                   border-width:5px;
+                   margin: 10px;}
+        
+        table { background-color: #ffffff;
+                     margin: auto;
+                     margin-block: 30px;
+                     text-align: center;
+                     border-collapse:collapse;
+                     width: 900px; 
+                     height: 100px;
+                     font-family:Georgia, 'Times New Roman', Times, serif;
+                     color: #ca9e91;
+                     border: #ca9e91;
+                     border-radius: 5px;}
+       
+       table th {background-color: lightcoral;
+                 font-size: 25px;
+                 color: #ffffff;}
+       
+       table tr td b {color: lightcoral;
+                      font-size: 25px;}
+       
+       table tr td i {color: #e7c4be; 
+                      font-size: 20px;
+                      margin-block: 20px;
+                      line-height: 25px;}
+       
+       
+       .nosotras p, .productos li {color:#ffffff;
+                                   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                   font-size: 20px;
+                                   margin: 10px;}
+       
+       .nosotras h2, .productos h2 {color:#ffffff;
+                     font-family: lobster two;
+                     font-size: 25px;
+                     margin-top: 20px;
+                     text-decoration: underline;
+                     font-weight: lighter;
+                     text-align: center;}
+       
+       .container{display: flex;
+                  flex-direction: row;
+                  width: 100%;
+                  height:355px;
+                  justify-content: center;
+                  margin-bottom: 20px;}
+       
+       .card h4 {text-align: center;
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                 color: #ffffff;
+                 margin-top: 20px;}
+                
+       .card {background-color:#f18080;
+              border: none;
+              margin: 20px;}
+       
+       .container .card img {width: 220px;
+                             height:220px;}
+       
+       .nosotras,.presentacion,.quehacemos {display: flex;
+                                  flex-direction:row;
+                                  margin: 10px;
+                                  padding: 10px;}
+       
+       .logoredes {width: 45px;
+                  height: 45px;
+                  margin-left:20px;}
+       
+       .imagenes{display: flex;
+                            justify-content: center;}
+       
+       .imagenes img { width: 250px;
+                                height: 250px;
+                                margin-top: 30px;
+                                margin-bottom: 30px;
+                                margin-right: 5px;
+                                margin-left: 5px;}
+       }

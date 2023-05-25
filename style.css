@@ -47,7 +47,8 @@ a {color: #ffffff;
 .op4 {background-color:#f18080;}
 .op5 {background-color:#ee5a5a;}
 
-header {background-color:#e7c4be;}
+header {background-color:#e7c4be;
+        width: 100%;}
 
 header h1 {font-family: Pacifico;
           color:#ffffff;
@@ -148,7 +149,6 @@ table tr td i {color: #e7c4be;}
 
 .imagenes{display: flex;
           justify-content: center;}
-
 
 
 /*Dispositivos moviles: celulares*/

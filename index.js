@@ -18,7 +18,6 @@ let suma3= suma + 58
 
 console.log(nombre)
 console.log(apellido)
-console.log (nombre + apellido)
 console.log (suma)
 console.log (suma2)
 console.log (suma3)
@@ -27,13 +26,15 @@ console.log (suma3)
 
 /*Ejercicio Heladeria IF*/
 
-let = topping
+let topping = ["Oreo","Kinder","Kitkat"]
 
-if (topping=Oreo) {console.log (precio=$10);} 
+let toppingOreo = precio$10
+
+if (topping == "Oreo") {console.log (precio=$10);} 
   
-else if (topping=Kitkat) {console.log (precio=$15)}
+else if (topping=="Kitkat") {console.log (precio=$15)}
 
-else if (topping=Kinder) {console.log (precio=$25)}
+else if (topping=="Kinder") {console.log (precio=$25)}
 
 else {console.log ("No tenemos ese topping")}
 
@@ -47,13 +48,13 @@ if (precioFinal) {console.log ("El helado cuesta $ + precioFinal")}
 console.log (precioFinal)
 console.log (helado)
 console.log (topping)
-console.log (Oreo)
+console.log (toppingOreo)
 console.log (Kitkat)
 console.log (Kinder)
 
 /*Ejercicio pedido Menú SWITCH*/
 
-let= menubar
+let= menu
 
 switch (menu) {case menu="carne": console.log("Bebida vino tinto");
     break;
@@ -84,3 +85,5 @@ let contador = 0;
 while (count > contador) {
   console.log("numero es mas chico que 11");
   contador++;}
+
+  

@@ -78,7 +78,7 @@ footer ul {display: flex;
 
 
 
-.Promociones h3,.Testimonios h3 { color:#ffffff;
+.Promociones h3,.Testimonios h3, .titulotazas { color:#ffffff;
                                   text-decoration: underline;
                                   font-family:Lobster Two;
                                   font-weight: lighter;}

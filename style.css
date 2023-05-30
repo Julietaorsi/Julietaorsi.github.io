@@ -123,19 +123,20 @@ table tr td b {color: lightcoral;}
           
 table tr td i {color: #e7c4be;}
 
-.nosotras p, .productos li {color:#ffffff;
-                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.nosotras p, .productos li, .descripalmohadones p, .descripmochilas p, .descriptazas p, .descripcartucheras p {color:#ffffff;
+                                                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
-.nosotras h2, .productos h2 {color:#ffffff;
+.nosotras h2, .productos h2, .almohadones h2, .descripalmohadones h2, .descripmochilas h2, .descriptazas h2, .descripcartucheras h2 {color:#ffffff;
                              font-family: lobster two;
                              text-decoration: underline;
                              font-weight: lighter;
                              text-align: center;}
-                             .container{ width: 100%;
-                                height:355px;
-                                justify-content: center;
-                                display: flex;
-                                flex-direction: row;}
+
+.container{ width: 100%;
+           height:355px;
+           justify-content: center;
+           display: flex;
+           flex-direction: row;}
                      
 .card h4 {text-align: center;
          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -215,10 +216,11 @@ table th {font-size: 15px;}
 
 table tr td {font-size: 10px;}
 
-.nosotras p, .productos li {font-size: 10px;}
+.nosotras p, .productos li,.descripalmohadones p, .descripmochilas p, .descriptazas p, .descripcartucheras p {font-size: 10px;}
 
-.nosotras h2, .productos h2 {font-size: 10px;
-                             margin-top: 5px;}
+.nosotras h2, .productos h2, .descripalmohadones h2, .descripmochilas h2, .descriptazas h2, .descripcartucheras h2
+                            {font-size: 10px;
+                             margin-top: 10px;}
 
 .container{ width: 100%;
            height:355px;
@@ -323,10 +325,10 @@ table th {font-size: 20px;}
         
 table tr td {font-size: 20px;}
         
-.nosotras p, .productos li {font-size: 10px;}
+.nosotras p, .productos li,.descripalmohadones p, .descripmochilas p, .descriptazas p, .descripcartucheras p {font-size: 10px;}
         
-.nosotras h2, .productos h2 {font-size: 10px;
-                             margin-top: 5px;}
+.nosotras h2, .productos h2,.descripalmohadones h2, .descripmochilas p, .descriptazas h2, .descripcartucheras h2  {font-size: 10px;
+                                                      margin-top: 5px;}
         
 .container{ width: 100%;
                    height:355px;
@@ -532,12 +534,14 @@ table tr td {font-size: 20px;}
                       line-height: 25px;}
        
        
-       .nosotras p, .productos li {color:#ffffff;
+       .nosotras p, .productos li, .descripmochilas p, .descripalmohadones p, .descriptazas p, .descripcartucheras p
+                                   {color:#ffffff;
                                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                                    font-size: 20px;
-                                   margin: 10px;}
+                                   margin: 10px;
+                                   text-align: center;}
        
-       .nosotras h2, .productos h2 {color:#ffffff;
+       .nosotras h2, .productos h2, .descripmochilas h2, .descripalmohadones h2, .descriptazas h2, .descripcartucheras h2 {color:#ffffff;
                      font-family: lobster two;
                      font-size: 25px;
                      margin-top: 20px;

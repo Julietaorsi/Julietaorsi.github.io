@@ -18,7 +18,7 @@ let suma3= suma + 58
 
 console.log(nombre)
 console.log(apellido)
-console.log (nombre + "" + apellido)
+console.log (nombre + apellido)
 console.log (suma)
 console.log (suma2)
 console.log (suma3)
@@ -27,7 +27,7 @@ console.log (suma3)
 
 /*Ejercicio Heladeria IF*/
 
-let topping= 3
+let = topping
 
 if (topping=Oreo) {console.log (precio=$10);} 
   
@@ -45,6 +45,7 @@ let preciofinal= helado+topping
 if (precioFinal) {console.log ("El helado cuesta $ + precioFinal")}
 
 console.log (precioFinal)
+console.log (helado)
 console.log (topping)
 console.log (Oreo)
 console.log (Kitkat)
@@ -52,7 +53,7 @@ console.log (Kinder)
 
 /*Ejercicio pedido Menú SWITCH*/
 
-const menu = 3;
+let= menubar
 
 switch (menu) {case menu="carne": console.log("Bebida vino tinto");
     break;
